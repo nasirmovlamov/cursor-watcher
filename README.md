@@ -1,4 +1,4 @@
-# Cursor Watcher
+# Cursor Watcher 🏓
 
 A Node.js file watcher that monitors changes to a `cursor.lock` file and sends notifications to Telegram when the file content is updated.
 
