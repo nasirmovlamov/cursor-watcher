@@ -1,0 +1,5 @@
+---
+alwaysApply: true
+---
+
+Before executing any prompt, clear the contents of the cursor.lock file. Upon completion, generate a concise summary—no more than 50 words—and write it back to the cursor.lock file.

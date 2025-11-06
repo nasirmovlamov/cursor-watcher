@@ -1,0 +1,12 @@
+// === CONFIGURATION ===
+const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
+const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID;
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+const GEMINI_API_URL = process.env.GEMINI_API_URL;
+
+module.exports = {
+  TELEGRAM_BOT_TOKEN,
+  TELEGRAM_CHAT_ID,
+  GEMINI_API_KEY,
+  GEMINI_API_URL,
+};
