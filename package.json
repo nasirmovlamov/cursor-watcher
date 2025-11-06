@@ -4,7 +4,6 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "start": "node script.js ",
     "watcher": "node cursor-watcher.js"
   },
   "keywords": [],

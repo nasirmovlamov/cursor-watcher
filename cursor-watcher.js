@@ -4,8 +4,8 @@ const fs = require("fs");
 const { sendMessageToTelegram } = require("./sendMessageToTelegram");
 
 // Absolute path to the file we care about
-const targetFile = "/Users/nasirmovlamov/temp/work-new/pal-project/cursor.lock";
-const targetDir = "/Users/nasirmovlamov/temp/work-new/pal-project/";
+const targetFile = "path-of-project-i-want-to-watch/cursor.lock";
+const targetDir = "path-of-project-i-want-to-watch/";
 
 // Function to clear cursor.lock file
 const clearCursorFile = () => {
