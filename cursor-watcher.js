@@ -7,16 +7,6 @@ const { sendMessageToTelegram } = require("./sendMessageToTelegram");
 const targetFile = "path-of-project-i-want-to-watch/cursor.lock";
 const targetDir = "path-of-project-i-want-to-watch/";
 
-// Function to clear cursor.lock file
-const clearCursorFile = () => {
-  try {
-    fs.writeFileSync(targetFile, "", "utf8");
-    console.log("Cursor file cleared");
-  } catch (error) {
-    console.error("Error clearing cursor file:", error);
-  }
-};
-
 // Function to update cursor.lock with summary (Telegram send is optional)
 const updateCursorWithSummary = async (summary) => {
   try {
